@@ -1,0 +1,4 @@
+bot-rubybook
+============
+
+Bot example

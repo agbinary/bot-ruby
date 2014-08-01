@@ -1,6 +1,6 @@
-require_relative 'bot'
+require_relative 'app/bot'
 
-bot = Bot.new(:name => ARGV[0], :data_file => 'bot_data')
+bot = Bot.new(:name => ARGV[0], :data_file => 'data/bot_data')
 puts bot.greeting
 
 while input = $stdin.gets and input.chomp != 'end'
